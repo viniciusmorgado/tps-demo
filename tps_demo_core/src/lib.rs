@@ -1,6 +1,7 @@
 use godot::prelude::*;
 
 mod entity_test;
+mod menu;
 
 struct TpsDemo;
 

@@ -118,7 +118,7 @@ material = SubResource("FogMaterial_e2dgj")
 [node name="Step" type="AudioStreamPlayer" parent="SoundEffects"]
 
 [node name="Floor" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 0, 1, 0, -1, 0, 0.005927205, 0.007184744, -0.014365673)
 mesh = SubResource("3")
 surface_material_override/0 = SubResource("StandardMaterial3D_froyn")
 
