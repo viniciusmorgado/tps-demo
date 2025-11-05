@@ -1,9 +1,8 @@
 use godot::prelude::*;
 
-struct TpsDemo;
+mod entity_test;
 
-// #[gdextension]
-// unsafe impl ExtensionLibrary for TpsDemo {}
+struct TpsDemo;
 
 #[gdextension]
 unsafe impl ExtensionLibrary for TpsDemo {
